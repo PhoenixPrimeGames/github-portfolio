@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101523">
+  <meta name="description" content="An explainable machine-learning text classifier for initial technical support issue triage.">
+  <title>Technical Issue Triage | Tony McJohnston</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/mark.svg"><link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to application</a>
+  <div class="topbar"><div class="wrap topbar-inner"><a href="../" class="back-link">← Back to portfolio</a><span class="top-label">TONY MCJOHNSTON / AI PROJECT</span><a href="../docs/AI_PROJECT.md" class="docs-link">Project documentation ↗</a></div></div>
+  <main class="wrap" id="main">
+    <div class="app-heading"><div class="project-flag"><span></span> SUPERVISED MACHINE LEARNING · DEMO</div><h1>Technical Issue <em>Triage Assistant.</em></h1><p>Describe a technical problem in plain language. A lightweight, locally trained text classifier will suggest an issue category and first diagnostic checks.</p></div>
+    <div class="app-grid">
+      <section class="panel input-panel" aria-labelledby="describe-title"><div class="panel-header"><span class="step-number">01</span><h2 id="describe-title">Describe the issue</h2></div><form id="triage-form"><label for="issue">What problem are you experiencing?</label><textarea id="issue" rows="6" maxlength="750" placeholder="Example: My laptop is connected to Wi-Fi, but the browser says it cannot find any websites..." aria-describedby="input-help" required></textarea><div class="input-help" id="input-help"><span>Include symptoms, device, and error messages. Never enter passwords or other sensitive information.</span><span id="counter">0 / 750</span></div><button type="submit" class="analyze-btn">Analyze issue <span aria-hidden="true">→</span></button></form><div class="samples"><p>OR TRY AN EXAMPLE</p><div id="examples" class="examples"></div></div></section>
+      <section class="panel result-panel" aria-labelledby="results-title" aria-live="polite"><div class="panel-header"><span class="step-number">02</span><h2 id="results-title">Initial assessment</h2></div><div id="result" class="empty-result"><div class="empty-icon" aria-hidden="true">◇</div><h3>Awaiting your description</h3><p>Enter a technical issue to view a predicted category, supporting keywords, and suggested next steps.</p></div></section>
+    </div>
+    <div class="explain-grid"><div class="explain-card"><span class="number">01 / MODEL</span><h3>How it works</h3><p>A multinomial Naive Bayes classifier is trained in your browser on a small, curated set of labeled issue descriptions. No external model service is called.</p></div><div class="explain-card"><span class="number">02 / INTERPRETATION</span><h3>Not a diagnosis</h3><p>Results are recommendations for initial triage only. The displayed ranking is relative model evidence, not a measured probability or guarantee.</p></div><div class="explain-card"><span class="number">03 / PRIVACY</span><h3>Local by design</h3><p>Descriptions stay in this browser session. This demo does not send them to a server or save them to an account.</p></div></div>
+    <footer>Educational prototype for COSC 4272 · <a href="../">Tony McJohnston Portfolio</a> · <a href="../docs/AI_PROJECT.md">Methodology & limitations</a></footer>
+  </main>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>
