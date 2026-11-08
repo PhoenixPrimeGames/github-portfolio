@@ -1,7 +1,7 @@
 # Assignment Status | November 8, 2026
 
 **Target due date:** November 20, 2026 (two weeks after Friday, November 6; confirm with course portal).  
-**Repository:** The required `hellphoenix/github-portfolio` repository has not yet been created.  
+**Repository:** The required `PhoenixPrimeGames/github-portfolio` repository has not yet been created.  
 **Website:** Local files complete as a first draft, not yet published.
 
 | Requirement | Status | Follow-up |

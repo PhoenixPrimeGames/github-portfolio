@@ -8,9 +8,9 @@ A responsive, static portfolio showcasing engineering experience, academic and p
 
 ## Proposed URLs (after you create and publish the repository)
 
-- GitHub repository: `https://github.com/hellphoenix/github-portfolio`
-- GitHub Pages: `https://hellphoenix.github.io/github-portfolio/`
-- AI assistant: `https://hellphoenix.github.io/github-portfolio/ai-assistant/`
+- GitHub repository: `https://github.com/PhoenixPrimeGames/github-portfolio`
+- GitHub Pages: `https://PhoenixPrimeGames.github.io/github-portfolio/`
+- AI assistant: `https://PhoenixPrimeGames.github.io/github-portfolio/ai-assistant/`
 
 ## Run locally
 
