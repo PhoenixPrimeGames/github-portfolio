@@ -1,25 +1,34 @@
-# Assignment Status | November 8, 2026
+# COSC 4272 Portfolio | Assignment Status
 
-**Target due date:** November 20, 2026 (two weeks after Friday, November 6; confirm with course portal).  
-**Repository:** The required `PhoenixPrimeGames/github-portfolio` repository has not yet been created.  
-**Website:** Local files complete as a first draft, not yet published.
+**Updated:** November 8, 2026  
+**Repository:** https://github.com/PhoenixPrimeGames/github-portfolio  
+**Website:** https://phoenixprimegames.github.io/github-portfolio/  
+**Target deadline:** November 20, 2026 (confirm with instructor/course portal)
 
-| Requirement | Status | Follow-up |
+| Requirement | Status | Next action |
 | --- | --- | --- |
-| Public `github-portfolio` repository | Not yet created | Create on GitHub, upload package, make meaningful commits |
-| GitHub Pages portfolio | Built locally; not published | Enable Pages from `main` root, test live links and mobile |
-| Home: name, professional title, professional photo | Partial | Replace explicit photo placeholder with an actual professional photograph |
-| About Me at least 250 words | Draft complete | First-person text contains 306 words; verify tone/facts |
-| Resume: downloadable and embedded PDF | Draft complete | Confirm phone/email, graduation, activities, and credentials |
-| Three projects with descriptions, technologies, screenshots and GitHub links | Partial | AI demo screenshot and PlayCoding link available; publish source and add actual images for other projects |
-| Technical skills and contact details | Draft complete | Verify technical skills, email and LinkedIn |
-| AI assistant project | Working prototype | Independent evaluation, polish, feedback and deployed testing |
-| AI project documentation | Draft complete | Add final testing evidence and user contribution |
-| AI prompts / development process | Started | Keep adding prompts, decisions, changes, tests |
-| Job search analysis PDF | Not started | Identify and analyze actual job listings; export PDF |
-| Skills gap analysis | Worksheet drafted | Compare specific role requirements to evidenced skills |
-| Final checks | Not started | Accessibility, responsiveness, links, screenshots, publishing, proofreading |
+| Public `github-portfolio` repository | Exists; public | Review final content and commit history |
+| GitHub Pages | Website files published previously | Confirm live site after this cleanup and test on mobile |
+| Home page | Name and title included; photo absent | Upload an actual professional photograph |
+| About Me (250+ words) | Draft complete | Verify profile and education details |
+| Resume | Embedded and downloadable PDF | Confirm facts; remove draft language only when finalized |
+| Project presentation | Four entries; Color-Key Maze screenshot added | Add real images and GitHub links for required course and personal projects |
+| Skills and contact | Present | Verify links and claimed experience |
+| AI-assisted project / AI assistant | Existing triage prototype removed from current publication | Confirm assignment's inconsistent terminology; develop or select final qualifying project |
+| AI project documentation | Old prototype documentation removed | Document final project's architecture, testing and AI use |
+| AI prompt documentation | Existing historical log retained | Continue log for actual work only; distinguish separate project sessions |
+| Job search analysis PDF | Draft prepared outside repository; requires revision | Revise and approve before submission |
+| Skills gap analysis | Draft prepared outside repository; requires revision | Revise and approve before submission |
+| Final review | Pending | Check deployment, screenshots, accessibility, broken links and submissions |
 
-**Authenticity notes:** Decorative project previews are illustrations, **not screenshots** of the farm, Unity game, Android app, or C++ project. Unpublished repositories are not linked to nonexistent GitHub destinations. The résumé remains visibly marked as a draft.
+## Assignment wording to clarify
 
-**Next owner decisions:** Supply professional photograph, project screenshots, original code for featured projects, confirm resume details, confirm course due date, and verify whether the professor expects a conversational LLM or another definition of AI assistant.
+- Page 1: "Develop a small AI-assisted software project using modern AI tools."
+- Page 4: "AI Assistant Project (required)."
+- Page 7: "AI Assistant Project Functionality" is worth 20 points.
+
+The record should not be presented as settled until the instructor explains whether a software project built with AI tools, without an AI-assistant feature, meets the requirement.
+
+## Scope of this cleanup
+
+This update removes the earlier Technical Issue Triage Assistant's live files, project-card references, demonstration screenshot, and project-specific technical document. The historical prompt log remains to accurately record AI-assisted work. These removals do not rewrite Git commit history.
