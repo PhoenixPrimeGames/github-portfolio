@@ -1,6 +1,6 @@
 # GitHub Portfolio | COSC 4272 Senior Seminar
 
-A professional GitHub Pages portfolio featuring protection-and-control technical experience, AI-assisted software development, academic simulations, personal game development, and career-readiness materials.
+This is A professional GitHub Pages portfolio featuring protection-and-control technical experience, AI-assisted software development, academic simulations, personal game development, and career-readiness materials.
 
 **Website:** https://phoenixprimegames.github.io/github-portfolio/  
 **Repository:** https://github.com/PhoenixPrimeGames/github-portfolio
@@ -15,7 +15,7 @@ A professional GitHub Pages portfolio featuring protection-and-control technical
 - **Purpose:** Helps people explore how skills supported by their stated work experience might apply to another career field. Includes evidence excerpts, potential applications, and limitations.
 - **AI development log:** https://github.com/PhoenixPrimeGames/Career-Skills-Translator/blob/main/docs/AI_usage_log.md
 - **Documentation:** The dedicated project repository includes its requirements, planning document, architecture, evaluation records, screenshots, and tests.
-- **Deployment note:** The owner has temporarily enabled public access for instructor review. Access may become restricted afterward; anonymous access should be checked independently.
+- **Deployment note:** Public access has been temporarily enabled for instructor review.
 
 ### 2. FarmGrow AI | CPSC 4370 academic team project
 
@@ -61,9 +61,7 @@ The course's required **AI Prompt Log / AI Usage Log** is maintained with the ap
 
 **[Career Skills Translator AI Usage Log](https://github.com/PhoenixPrimeGames/Career-Skills-Translator/blob/main/docs/AI_usage_log.md)**
 
-Submit the link or document for both COSC 4272 assignments as instructed by the instructor. The previous `github-portfolio/docs/AI_PROMPT_LOG.md` was a historical portfolio-work log, not the Career Skills Translator development log, and has been excluded from the current repository structure. Its earlier commits remain recoverable in Git history.
-
-The application source code currently lives in its own public repository. The instructor has been asked whether that satisfies the portfolio assignment's repository-location requirement. This is not yet resolved.
+The application source code currently lives in its own public repository.
 
 ## Local preview
 
@@ -71,4 +69,4 @@ Open `index.html` in a browser, or run `python -m http.server 8000` from the rep
 
 ## Attribution and authenticity
 
-This portfolio was prepared and revised with AI assistance. FarmGrow AI was developed collaboratively for a course project. The Sparks and Stories source remains private. Screenshots are described according to their actual sources. Project functionality and claims should be verified before employment applications or final submission.
+This portfolio was prepared and revised with AI assistance. FarmGrow AI was developed collaboratively for a course project. The Sparks and Stories source remains private. Screenshots are described according to their actual sources.
