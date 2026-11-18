@@ -23,7 +23,7 @@ The portfolio's three required featured project categories are represented, its 
 | Skills and contact sections | **Verified in source** | Sections and email, LinkedIn, and GitHub links are present. Check links in a browser. |
 | Additional project: Sparks and Stories | **Displayed, in development** | Authentic Android screenshot; source intentionally private. Not counted toward the three required public-source projects. |
 | Earlier project: PlayCoding | **Removed from website** | Repository retained separately; no unverified working-code claims on the portfolio. |
-| Historical portfolio AI-assistance log | **Available** | `docs/AI_PROMPT_LOG.md` remains in the portfolio repository. |
+| AI Prompt Log for course submission | **Verified in AI repository** | Use `Career-Skills-Translator/docs/AI_usage_log.md` for both assignments. The historical portfolio-specific `docs/AI_PROMPT_LOG.md` is being removed from this repository; earlier versions remain in Git history. |
 
 ## AI-assisted software development assignment
 
@@ -39,7 +39,7 @@ The portfolio's three required featured project categories are represented, its 
 | Automated tests and manual evaluation | **Documented** | README reports 56 passing automated tests, plus ten first-attempt evaluation scenarios and regression retests. These were not rerun during this status review. |
 | Demonstration screenshots | **Verified in AI repository** | Three screenshots in `docs/screenshots/`. |
 | Hosted app access for instructor | **Temporarily public per owner; independently check** | Owner reports public access for approximately three weeks from November 15, 2026. Test anonymously and before the review window closes. |
-| AI application source location | **Instructor clarification recommended** | AI source lives in its own public repository, linked from the portfolio. Confirm that this satisfies any requirement to include AI source inside `github-portfolio`. |
+| AI application source location | **Instructor clarification recommended** | AI source lives in its own public repository, linked from the portfolio. Instructor has been contacted about whether the separate public source repository satisfies the requirement; await reply before duplicating code. |
 | AI project deployment-status wording | **Needs documentation refresh** | AI README/planning document still describe restricted access, which does not reflect the temporary public demonstration arrangement. |
 
 ## Career-readiness deliverables
@@ -55,10 +55,10 @@ The portfolio's three required featured project categories are represented, its 
 
 1. **Verify the live site:** In a private browser window, check mobile and desktop layout, portrait alignment, the résumé viewer/download, project screenshots, navigation, and every featured project link.
 2. **Verify instructor access to Career Skills Translator:** Open the Streamlit demo as a logged-out visitor and perform a limited test using fictional information. Monitor API usage and the temporary public-access window.
-3. **Resolve strict repository expectations:** Ask whether a public, separately linked AI source repository is acceptable in place of a copy inside `github-portfolio`.
+3. **Resolve strict repository expectations:** Await the instructor’s response about whether a separately linked public AI source repository is acceptable; add a source copy only if required.
 4. **Prepare final career-readiness PDFs:** Export the approved Word files, inspect page breaks and hyperlinks, and use the PDFs for final submission.
-5. **Reconcile remaining documentation:** Update the Career Skills Translator README and planning document for temporary public access; optionally correct the portfolio README's outdated résumé note and file-tree diagram.
-6. **Verify the official due date and submit:** Include the portfolio repository URL, GitHub Pages URL, résumé PDF, AI documentation/source and prompt log, Job Search Analysis PDF, and Skills Gap Analysis PDF. Retain a copy of the submission confirmation.
+5. **Reconcile remaining documentation:** Remove the obsolete portfolio-specific AI prompt log, use the application’s dedicated AI Usage Log for submission, and update the Career Skills Translator README/planning document to reflect temporary public access.
+6. **Verify the official due date and submit:** Include the portfolio repository URL, GitHub Pages URL, résumé PDF, AI project documentation/source, the AI Usage Log linked from the dedicated application repository, Job Search Analysis PDF, and Skills Gap Analysis PDF. Retain a copy of the submission confirmation.
 
 ## Project links and notes
 
