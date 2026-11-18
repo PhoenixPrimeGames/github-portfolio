@@ -1,6 +1,6 @@
 # GitHub Portfolio | COSC 4272 Senior Seminar
 
-This is A professional GitHub Pages portfolio featuring protection-and-control technical experience, AI-assisted software development, academic simulations, personal game development, and career-readiness materials.
+Welcome to my professional GitHub Pages portfolio, featuring protection-and-control technical experience, AI-assisted software development, academic simulations, personal game development, and career-readiness materials.
 
 **Website:** https://phoenixprimegames.github.io/github-portfolio/  
 **Repository:** https://github.com/PhoenixPrimeGames/github-portfolio
