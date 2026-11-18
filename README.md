@@ -1,65 +1,74 @@
 # GitHub Portfolio | COSC 4272 Senior Seminar
 
-A professional GitHub Pages portfolio featuring engineering experience, AI-assisted software development, academic simulations, personal game projects, and career-readiness materials.
+A professional GitHub Pages portfolio featuring protection-and-control technical experience, AI-assisted software development, academic simulations, personal game development, and career-readiness materials.
 
-**Published website:** https://phoenixprimegames.github.io/github-portfolio/  
+**Website:** https://phoenixprimegames.github.io/github-portfolio/  
 **Repository:** https://github.com/PhoenixPrimeGames/github-portfolio
 
 ## Featured projects
 
-### 1. Career Skills Translator | AI-assisted software project
+### 1. Career Skills Translator | AI-assisted software development project
 
 - **Source:** https://github.com/PhoenixPrimeGames/Career-Skills-Translator
 - **Live demonstration:** https://career-skills-translator-main.streamlit.app/
 - **Technologies:** Python, Streamlit, Pydantic, OpenAI API, pytest
-- **Purpose:** Helps users explore how competencies explicitly supported by their stated experience may transfer to a target career. Includes evidence excerpts, possible applications, and limitations.
-- **Documentation and AI usage record:** See the source repository's `docs/` directory and `docs/AI_usage_log.md`.
-- **Deployment note:** Public demonstration access is provided temporarily for instructor review, and the hosted application may become restricted afterward.
+- **Purpose:** Helps people explore how skills supported by their stated work experience might apply to another career field. Includes evidence excerpts, potential applications, and limitations.
+- **AI development log:** https://github.com/PhoenixPrimeGames/Career-Skills-Translator/blob/main/docs/AI_usage_log.md
+- **Documentation:** The dedicated project repository includes its requirements, planning document, architecture, evaluation records, screenshots, and tests.
+- **Deployment note:** The owner has temporarily enabled public access for instructor review. Access may become restricted afterward; anonymous access should be checked independently.
 
 ### 2. FarmGrow AI | CPSC 4370 academic team project
 
 - **Source:** https://github.com/PhoenixPrimeGames/FarmGrow-AI
-- **Technologies:** Python, Matplotlib, NumPy, simulation, intelligent-agent planning
-- **Purpose:** Simulates plant lifecycles and an autonomous service agent in a vertical farm, with live 3D visualization and reporting.
+- **Technologies:** Python, Matplotlib, NumPy, agent-based simulation and planning
+- **Purpose:** Simulates plant lifecycles and a service agent in a vertical farm, with 3D visualization and reports.
 - **Attribution:** Developed for CPSC 4370 in collaboration with Alondra Nunez.
-- **Screenshot:** `screenshots/farmgrow-simulation.jpg` is a real image extracted from the project's course report.
+- **Screenshot:** `screenshots/farmgrow-simulation.jpg`, from the course report.
 
 ### 3. Color-Key Maze | personal game-development project
 
 - **Source:** https://github.com/PhoenixPrimeGames/Color-Key-Maze
 - **Technologies:** Unity 6.3, C#, 2D physics, C# events
-- **Purpose:** A playable color-key maze prototype with sprinting, key/barrier mechanics, a timer, and game-state UI.
-- **Screenshot:** `screenshots/maze-overview.jpg` is real gameplay from the Unity project.
+- **Purpose:** Playable maze prototype with sprinting, key/barrier interactions, a countdown timer, and gameplay-state UI.
+- **Screenshot:** `screenshots/maze-overview.jpg`, from the running Unity project.
 
-### Additional projects
+### Additional project
 
-- **Sparks and Stories:** Kotlin/Android application project, with an original screenshot. Source code is private, as it is currently in development.
+- **Sparks and Stories:** Android/Kotlin card-based conversation application in development. A genuine app screenshot is shown on the portfolio; the source repository is intentionally private.
 
 ## Repository organization
 
 ```text
 github-portfolio/
 ├── index.html                       Portfolio website
-├── assets/                          Styling, navigation script, branding
-├── resume.pdf                       Embedded/downloadable résumé, pending final verification
+├── assets/
+│   ├── profile-photo.jpg            Homepage portrait
+│   └── ...                          CSS, JavaScript and branding assets
+├── resume.pdf                       Embedded and downloadable résumé
 ├── screenshots/
-│   ├── maze-overview.jpg            Authentic Unity gameplay screenshot
-│   └── farmgrow-simulation.jpg      Authentic farm simulation screenshot
+│   ├── farmgrow-simulation.jpg      Real farm simulation screenshot
+│   ├── maze-overview.jpg            Real maze gameplay screenshot
+│   └── sparks-and-stories.jpg       Real Android application screenshot
 └── docs/
-    ├── AI_PROMPT_LOG.md            Portfolio development history
-    └── PROJECT_STATUS.md           Outstanding assignment work
+    └── PROJECT_STATUS.md           Assignment progress and submission checks
 ```
 
-The Career Skills Translator project card references an actual image hosted in its public project repository instead of duplicating it here.
+Career Skills Translator's screenshot is linked from its own public repository rather than duplicated here.
 
-## Running the portfolio locally
+## AI-assisted development documentation
 
-The site uses static HTML, CSS, and JavaScript. Open `index.html` in a browser or run `python -m http.server 8000` and browse to `http://localhost:8000/`.
+The course's required **AI Prompt Log / AI Usage Log** is maintained with the application it documents:
 
-## AI development documentation
+**[Career Skills Translator AI Usage Log](https://github.com/PhoenixPrimeGames/Career-Skills-Translator/blob/main/docs/AI_usage_log.md)**
 
-Portfolio development assistance is documented in `docs/AI_PROMPT_LOG.md`. The new AI application's actual development process, prompts, architecture, tests, and evaluation records are documented in its dedicated [Career Skills Translator repository](https://github.com/PhoenixPrimeGames/Career-Skills-Translator).
+Submit the link or document for both COSC 4272 assignments as instructed by the instructor. The previous `github-portfolio/docs/AI_PROMPT_LOG.md` was a historical portfolio-work log, not the Career Skills Translator development log, and has been excluded from the current repository structure. Its earlier commits remain recoverable in Git history.
+
+The application source code currently lives in its own public repository. The instructor has been asked whether that satisfies the portfolio assignment's repository-location requirement. This is not yet resolved.
+
+## Local preview
+
+Open `index.html` in a browser, or run `python -m http.server 8000` from the repository root and visit http://localhost:8000/.
 
 ## Attribution and authenticity
 
-The portfolio was prepared and revised with AI assistance. FarmGrow AI was developed collaboratively for a course project. Project screenshots are described according to their actual sources.
+This portfolio was prepared and revised with AI assistance. FarmGrow AI was developed collaboratively for a course project. The Sparks and Stories source remains private. Screenshots are described according to their actual sources. Project functionality and claims should be verified before employment applications or final submission.
