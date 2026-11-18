@@ -33,8 +33,7 @@ A professional GitHub Pages portfolio featuring engineering experience, AI-assis
 
 ### Additional projects
 
-- **Sparks and Stories:** Kotlin/Android application project, with original screenshots and public source link still pending.
-- **PlayCoding:** C++ game-programming experiments, available at https://github.com/PhoenixPrimeGames/PlayCoding.
+- **Sparks and Stories:** Kotlin/Android application project, with an original screenshot. Source code is private, as it is currently in development.
 
 ## Repository organization
 
@@ -59,8 +58,8 @@ The site uses static HTML, CSS, and JavaScript. Open `index.html` in a browser o
 
 ## AI development documentation
 
-Portfolio development assistance is documented in `docs/AI_PROMPT_LOG.md`. The new AI application's actual development process, prompts, architecture, tests, and evaluation records are documented in its dedicated [Career Skills Translator repository](https://github.com/PhoenixPrimeGames/Career-Skills-Translator). Do not duplicate or misrepresent its project history.
+Portfolio development assistance is documented in `docs/AI_PROMPT_LOG.md`. The new AI application's actual development process, prompts, architecture, tests, and evaluation records are documented in its dedicated [Career Skills Translator repository](https://github.com/PhoenixPrimeGames/Career-Skills-Translator).
 
 ## Attribution and authenticity
 
-The portfolio was prepared and revised with AI assistance. FarmGrow AI was developed collaboratively for a course project. Project screenshots are described according to their actual sources. Decorative illustrations on other project cards are not screenshots of running software. Verify professional biography, résumé, external links, and remaining deliverables before submission.
+The portfolio was prepared and revised with AI assistance. FarmGrow AI was developed collaboratively for a course project. Project screenshots are described according to their actual sources.
