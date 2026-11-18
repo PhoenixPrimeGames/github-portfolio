@@ -46,11 +46,10 @@ github-portfolio/
 │   └── ...                          CSS, JavaScript and branding assets
 ├── resume.pdf                       Embedded and downloadable résumé
 ├── screenshots/
-│   ├── farmgrow-simulation.jpg      Real farm simulation screenshot
-│   ├── maze-overview.jpg            Real maze gameplay screenshot
-│   └── sparks-and-stories.jpg       Real Android application screenshot
-└── docs/
-    └── PROJECT_STATUS.md           Assignment progress and submission checks
+    ├── farmgrow-simulation.jpg      Real farm simulation screenshot
+    ├── maze-overview.jpg            Real maze gameplay screenshot
+    └── sparks-and-stories.jpg       Real Android application screenshot
+
 ```
 
 Career Skills Translator's screenshot is linked from its own public repository rather than duplicated here.
